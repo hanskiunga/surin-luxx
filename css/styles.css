@@ -19,3 +19,6 @@ p{
 body{
     background-color: rgb(207, 206, 206);
 }
+.intro{
+    font-style: italic;
+}
