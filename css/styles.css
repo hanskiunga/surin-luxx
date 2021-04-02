@@ -13,6 +13,9 @@ h3{
 .intro{
     font-style: italic;
 }
+.homepage{
+    border-radius: 50%;
+}
 p{
     font-family: sans-serif;
 }
@@ -21,4 +24,22 @@ body{
 }
 .intro{
     font-style: italic;
+}
+@media screen and (min-width: 480px) {
+    body{
+        background-color: grey;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    body{
+        background-color: honeydew;
+    }
+    img{
+        float: left;
+        width: 820px;
+        height: auto;
+        padding: 15px;
+    }
+    
 }

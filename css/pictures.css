@@ -5,3 +5,19 @@ h2{
 body{
     background-color: rgb(185, 185, 185);
 }
+.column {
+    height: auto;
+    width: auto;
+    float: left;
+
+    
+
+}
+img{
+    width: 500px;
+    height: auto;
+}
+p{
+    color: rgb(112, 104, 148);
+
+}
