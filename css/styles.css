@@ -1,3 +1,14 @@
+.centered{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.links {
+    text-align: center;
+    padding: 25px;
+}
 h1{
     color: black;
     text-align: center;
@@ -14,16 +25,22 @@ h3{
     font-style: italic;
 }
 .homepage{
-    border-radius: 50%;
+    border-radius: 35%;
 }
 p{
     font-family: sans-serif;
 }
 body{
-    background-color: rgb(207, 206, 206);
+    background-color: rgb(185, 185, 185);
 }
 .intro{
     font-style: italic;
+}
+ul{
+    list-style: none;
+}
+.contacts{
+    border-radius: 75%;
 }
 @media screen and (min-width: 480px) {
     body{
@@ -33,7 +50,7 @@ body{
 }
 @media screen and (min-width:768px) {
     body{
-        background-color: honeydew;
+        background-color: rgb(185, 185, 185);
     }
     img{
         float: left;
